@@ -1,0 +1,1130 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background: rgb(60, 2, 103);
+}
+
+body .BarraPrincipal {
+    background-color: mediumpurple;
+    display: grid;
+    font-family: 'Merriweather Sans', sans-serif;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px;
+}
+
+body .BarraPrincipal .BarraItems {
+    align-items: center;
+    display: flex;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    justify-content: center;
+    color: black;
+    width: 100%;
+}
+
+body .BarraItems .Page1 a {
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    justify-content: center;
+    padding-inline: 20px;
+    text-decoration: none;
+}
+
+body .BarraItems .Page1 a > span {
+    color: #ffffff;
+    border: 1.5px solid transparent;
+    width: 85%;
+}
+
+body .BarraItems .Page1 a:hover {
+    align-items: start;
+    color: violet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+body .BarraItems .material-symbols-outlined {
+    display: none;
+}
+
+body .Me {
+    align-items: center;
+    color: white;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1fr 0.5fr;
+    grid-template-rows: 400px;
+    justify-content: center;
+    padding: 24px 144px;
+}
+
+body .Me .Imagen-Card1 > img {
+    align-items: center;
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 400px;
+    justify-content: center;
+    object-fit: fill;
+    margin: 0px;
+    padding: 0px;
+    width: 360px;
+}
+
+body .Me .Imagen-Card2 > img {
+    align-items: center;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    height: 400px;
+    justify-content: center;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    width: 360px;
+}
+
+body .Me .Contenido-Card {
+    align-items: start;
+    background-color: mediumpurple;
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    height: 400px;
+    justify-content: left;
+    padding-left: 48px;
+    padding-right: 36px;
+    width: 794px;
+}
+
+body .Me .Contenido-Card > p {
+    font-size: 21px;
+    margin-bottom: 0px;
+}
+
+body .Me .Contenido-Card .Alternate1 {
+    display: none;
+}
+
+body .Me .Contenido-Card .Alternate2 {
+    display: none;
+}
+
+body .Me .Contenido-Card .Titulo-Card {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 100%;
+}
+
+body .Me .Contenido-Card .Titulo-Card > h4 {
+    font-size: 36px;
+    text-align: left;
+    width: 100%;
+}
+
+body .Me .Contenido-Card .Titulo-Card > span {
+    border: 1px solid white;
+    width: 30%;
+}
+
+body .Me .Contenido-Card button {
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    padding: 16px 32px;
+}
+
+body .Me .Contenido-Card button:hover {
+    background: hotpink;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: medium;
+    padding: 16px 32px;
+}
+
+body .Bar1 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+body .Bar1 > span {
+    border: 1.5px solid white;
+    width: 95%;
+}
+
+body .Works {
+    align-items: start;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 450px;
+    justify-content: center;
+    padding: 0px 600px;
+}
+
+body .Works .Span span {
+    align-items: start;
+    border: 2px solid gray;
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 110.5px 0px;
+}
+
+body .Works .Card1 {
+    align-items: start;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    justify-content: center;
+    width: 380px;
+    padding-left: 60px;
+    padding-right: 24px;
+}
+
+body .Works .Card1 .Titulo-Card1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0px;
+}
+
+body .Works .Card1 p {
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+body .Works .Card1 button {
+    background: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    padding: 12px 24px;
+}
+
+body .Works .Card1 button a {
+    color: black;
+}
+
+body .Works .Card1 button:hover {
+    background: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+    padding: 12px 24px;
+}
+
+body .Works .Card1 button:hover a {
+    color: white;
+}
+
+body .Works .Card2 {
+    align-items: start;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 426px;
+    justify-content: center;
+    width: 380px;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+body .Works .Card2 > img {
+    align-items: start;
+    height: 180px;
+    justify-content: center;
+    object-fit: cover;
+    margin: 0px;
+    width: 180px;
+}
+
+body .Works .Card2 span {
+    padding: 0px 24px;
+}
+
+body .Works .Card2 .Contenido2 h4 {
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+body .Works .Card2 .Contenido2 p {
+    padding: 0px 18px;
+}
+
+body .Works .Card3 {
+    align-items: start;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 426px;
+    justify-content: center;
+    width: 380px;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+body .Works .Card3 > img {
+    align-items: center;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    height: 180px;
+    justify-content: center;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+    width: 180px;
+}
+
+body .Works .Card3 span {
+    padding: 0px 24px;
+}
+
+body .Works .Card3 .Contenido3 h4 {
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+body .Works .Card3 .Contenido3 p {
+    padding: 0px 18px;
+}
+
+body .Works .Card4 {
+    align-items: start;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 426px;
+    justify-content: center;
+    width: 320px;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+body .Works .Card4 > img {
+    align-items: center;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    height: 180px;
+    justify-content: center;
+    object-fit: fill;
+    margin: 0px;
+    padding: 0px;
+    width: 180px;
+}
+
+body .Works .Card4 span {
+    padding: 0px 24px;
+}
+
+body .Works .Card4 .Contenido4 h4 {
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+body .Works .Card4 .Contenido4 p {
+    padding: 0px 18px;
+}
+
+body .Works .Alternate-Card {
+    display: none;
+}
+
+body .Bar2 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 24px 0px;
+}
+
+body .Bar2 > span {
+    border: 1.5px solid white;
+    width: 95%;
+}
+
+body .Now {
+    align-items: center;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 180px;
+    padding: 24px 0px;
+}
+
+body .Now .Content {
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+    padding: 0px;
+}
+
+body .Now button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+    padding: 12px 24px;
+}
+
+body .Now button a {
+    color: white;
+}
+
+body .Now button:hover {
+    background: white;
+    border: 2px solid white;
+    color: black;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+    padding: 12px 24px;
+}
+
+body .Now button:hover a {
+    color: black;
+}
+
+body .Footer {
+    background: rebeccapurple;
+    color: #ffffff;
+    display: flex;
+    height: 240px;
+    padding: 20px 200px;
+}
+
+body .Footer .Contenido {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+body .Footer .Contenido > p {
+    text-align: center;
+    font-size: large;
+    padding: 24px 0px;
+    width: 100%;
+}
+
+body .Footer .Contenido .Button {
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+    justify-content: center;
+    margin: 0px 0px;
+}
+
+body .Footer .Contenido .Button > h6 {
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0px;
+    padding: 12px 0px;
+}
+
+body .Footer .Contenido .Button > p {
+    background-color: white;
+    border-radius: 30px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 16px 40px;
+}
+
+body .Footer .Contenido .Button > p:hover {
+    background-color: black;
+    border-radius: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 16px 40px;
+}
+
+body .Footer .Contenido .Button > span {
+    padding-left: 240px;
+}
+
+body .Center {
+    background: rebeccapurple;
+    display: flex;
+}
+
+body .Center .Redes {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+body .Center .Redes > span {
+    padding: 0px 20px;
+    padding-bottom: 48px;
+}
+
+body .Center .Redes img {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1366px) {
+    body .Me {
+        grid-template-columns: 280px 280px 640px;
+        grid-template-rows: 400px;
+        padding: 24px 144px;
+    }
+
+    body .Me .Imagen-Card1 > img {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        height: 400px;
+        object-fit: cover;
+        width: 280px;
+    }
+
+    body .Me .Imagen-Card2 > img {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        height: 400px;
+        object-fit: fill;
+        width: 280px;
+    }
+
+    body .Me .Contenido-Card {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        height: 400px;
+        padding-left: 36px;
+        padding-right: 36px;
+        width: 564px;
+    }
+
+    body .Me .Contenido-Card > p {
+        font-size: 21px;
+        margin-bottom: 0px;
+    }
+
+    body .Me .Contenido-Card .Titulo-Card > h4 {
+        font-size: 36px;
+    }
+
+    body .Me .Contenido-Card .Titulo-Card > span {
+        width: 35%;
+    }
+
+    body .Me .Contenido-Card button {
+        font-size: 14px;
+        padding: 12px 14px;
+    }
+
+    body .Me .Contenido-Card button:hover {
+        font-size: 14px;
+        padding: 12px 14px;
+    }
+
+    body .Works {
+        align-items: start;
+        color: black;
+        display: grid;
+        grid-template-columns: 320px 4px 300px 4px 300px 4px 280px;
+        grid-template-rows: 450px;
+        justify-content: center;
+        padding: 0px 600px;
+    }
+    
+    body .Works .Card1 {
+        height: 450px;
+        width: 254px;
+        padding: 0px 33px;
+    }
+    
+    body .Works .Card1 .Titulo-Card1 {
+        font-size: 36px;
+        margin: 0;
+        padding: 0px;
+    }
+    
+    body .Works .Card1 p {
+        font-size: 19px;
+        line-height: 24px;
+        padding-bottom: 8px;
+    }
+    
+    body .Works .Card1 button {
+        padding: 12px 14px;
+    }
+    
+    body .Works .Card1 button:hover {
+        padding: 12px 14px;
+    }
+    
+    body .Works .Card2 {
+        height: 426px;
+        width: 254px;
+        padding-top: 24px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    
+    body .Works .Card2 > img {
+        height: 180px;
+        width: 180px;
+    }
+    
+    body .Works .Card2 span {
+        padding: 0px 12px;
+    }
+    
+    body .Works .Card2 .Contenido2 h4 {
+        font-size: 20px;
+    }
+    
+    body .Works .Card2 .Contenido2 p {
+        padding: 0px 6px;
+    }
+    
+    body .Works .Card3 {
+        height: 426px;
+        width: 254px;
+        padding-top: 24px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    
+    body .Works .Card3 > img {
+        height: 180px;
+        width: 180px;
+    }
+    
+    body .Works .Card3 span {
+        padding: 0px 12px;
+    }
+    
+    body .Works .Card3 .Contenido3 h4 {
+        font-size: 20px;
+    }
+    
+    body .Works .Card3 .Contenido3 p {
+        padding: 0px 6px;
+    }
+    
+    body .Works .Card4 {
+        height: 426px;
+        width: 214px;
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+    
+    body .Works .Card4 > img {
+        height: 180px;
+        width: 180px;
+    }
+    
+    body .Works .Card4 span {
+        padding: 0px 24px;
+    }
+    
+    body .Works .Card4 .Contenido4 h4 {
+        font-size: 20px;
+        padding-top: 24px;
+    }
+    
+    body .Works .Card4 .Contenido4 p {
+        padding: 0px 18px;
+        padding-bottom: 54px;
+    }
+    
+    body .Now {
+        margin: 0px 160px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    body .BarraPrincipal .BarraItems .material-symbols-outlined {
+        display: unset;
+        color: rebeccapurple;
+    }
+
+    body .BarraPrincipal .BarraItems .Page1 {
+        display: none;
+    }
+
+    body .Me {
+        grid-template-columns: 320px 0px 420px;
+        grid-template-rows: 440px;
+        padding: 24px 144px;
+    }
+
+    body .Me .Imagen-Card1 > img {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        height: 440px;
+        object-fit: cover;
+        width: 320px;
+    }
+
+    body .Me .Imagen-Card2 > img {
+        display: none;
+    }
+
+    body .Me .Contenido-Card {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        height: 440px;
+        padding-left: 32px;
+        padding-right: 32px;
+        width: 354px;
+    }
+
+    body .Me .Contenido-Card > p {
+        display: none;
+    }
+
+    body .Me .Contenido-Card .Alternate1 {
+        display: unset;
+        font-size: 21px;
+        line-height: 27px;
+        margin-bottom: 0px;
+    }
+
+    body .Me .Contenido-Card .Alternate2 {
+        display: none;
+    }
+
+    body .Me .Contenido-Card .Titulo-Card > h4 {
+        font-size: 36px;
+    }
+
+    body .Me .Contenido-Card .Titulo-Card > span {
+        width: 60%;
+    }
+
+    body .Me .Contenido-Card button {
+        font-size: 12px;
+        padding: 8px 14px;
+    }
+
+    body .Me .Contenido-Card button:hover {
+        font-size: 12px;
+        padding: 8px 14px;
+    }
+
+    body .Works {
+        grid-template-columns: 700px;
+        grid-template-rows: 480px;
+        justify-content: center;
+        padding: 0px 144px;
+    }
+
+    body .Works .Card1 {
+        display: none;
+    }
+
+    body .Works .Card2 {
+        display: none;
+    }
+
+    body .Works .Card3 {
+        display: none;
+    }
+
+    body .Works .Card4 {
+        display: none;
+    }
+
+    body .Works .Span {
+        display: none;
+    }
+
+    body .Works .Alternate-Card {
+        align-items: start;
+        background-color: white;
+        display: unset;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 466px;
+        width: 652px;
+        padding: 0px 24px;
+        padding-bottom: 12px;
+    }
+
+    body .Works .Alternate-Card .Titulo-Card1 {
+        gap: 120px;
+        font-size: 36px;
+    }
+    
+    body .Works .Alternate-Card .Images1 {
+        display: flex;
+        gap: 120px;
+        padding-bottom: 0px;
+    }
+
+    body .Works .Alternate-Card .Images1 .Titles {
+        display: none;
+    }
+
+    body .Works .Alternate-Card .Images1 .Alt-Image1 > img {
+        align-items: start;
+        height: 100px;
+        justify-content: center;
+        object-fit: cover;
+        margin: 0px;
+        width: 100px;
+    }
+
+    body .Works .Alternate-Card .Images1 .Alt-Image2 > img {
+        align-items: start;
+        height: 100px;
+        justify-content: center;
+        object-fit: cover;
+        margin: 0px;
+        width: 100px;
+    }
+
+    body .Works .Alternate-Card .Images1 .Alt-Image3 > img {
+        align-items: start;
+        height: 100px;
+        justify-content: center;
+        object-fit: cover;
+        margin: 0px;
+        width: 100px;
+    }
+    
+    body .Works .Alternate-Card .Titles-Img {
+        display: flex;
+        font-size: 18px;
+        font-style: ;
+        text-align: center;
+        gap: 48px;
+        padding-bottom: 12px;
+    }
+    
+    body .Works .Alternate-Card .Titles-Img .Title1 {
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 36px;
+    }
+    
+    body .Works .Alternate-Card .Titles-Img .Title2 {
+        text-align: center;
+        padding-right: 54px;
+    }
+
+    body .Works .Alternate-Card .Titles-Img .Title3 {
+        text-align: center;
+        padding-left: 24px;
+        padding-right: 80px;
+    }
+    
+    body .Works .Alternate-Card button {
+        background: none;
+        border: 2px solid black;
+        border-radius: 5px;
+        color: black;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 12px 32px;
+    }
+    
+    body .Works .Alternate-Card button:hover {
+        background: black;
+        border: 2px solid black;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 12px 32px;
+    }
+    
+    body .Now {
+        margin: 0px 50px;
+    }
+
+    body .Now .Content {
+        font-size: 26px;
+    }
+    
+    body .Now button {
+        font-size: medium;
+        padding: 8px 16px;
+    }
+    
+    body .Now button:hover {
+        font-size: medium;
+        padding: 8px 16px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body .BarraPrincipal .BarraItems .material-symbols-outlined {
+        display: unset;
+        color: rebeccapurple;
+    }
+
+    body .BarraPrincipal .BarraItems .Page1 {
+        display: none;
+    }
+
+    body .Me {
+        grid-template-columns: 160px 0px 160px;
+        grid-template-rows: 320px;
+        padding: 24px 144px;
+    }
+
+    body .Me .Imagen-Card1 > img {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        height: 320px;
+        object-fit: cover;
+        width: 160px;
+    }
+
+    body .Me .Imagen-Card2 > img {
+        display: none;
+    }
+
+    body .Me .Contenido-Card {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        height: 320px;
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 132px;
+    }
+
+    body .Me .Contenido-Card > p {
+        display: none;
+    }
+
+    body .Me .Contenido-Card .Alternate1 {
+        display: none;
+    }
+
+    body .Me .Contenido-Card .Alternate2 {
+        display: unset;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 0px;
+    }
+
+    body .Me .Contenido-Card .Titulo-Card > h4 {
+        font-size: 24px;
+    }
+
+    body .Me .Contenido-Card .Titulo-Card > span {
+        width: 70%;
+    }
+
+    body .Me .Contenido-Card button {
+        font-size: 9px;
+        padding: 7px 10px;
+    }
+
+    body .Me .Contenido-Card button:hover {
+        font-size: 9px;
+        padding: 7px 10px;
+    }
+
+    body .Works {
+        grid-template-columns: 280px;
+        grid-template-rows: 820px;
+        justify-content: center;
+        padding: 0px 144px;
+    }
+
+    body .Works .Card1 {
+        display: none;
+    }
+
+    body .Works .Card2 {
+        display: none;
+    }
+
+    body .Works .Card3 {
+        display: none;
+    }
+
+    body .Works .Card4 {
+        display: none;
+    }
+
+    body .Works .Span {
+        display: none;
+    }
+
+    body .Works .Alternate-Card {
+        align-items: start;
+        background-color: white;
+        display: unset;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 806px;
+        width: 256px;
+        padding: 0px 12px;
+        padding-bottom: 12px;
+    }
+
+    body .Works .Alternate-Card .Titulo-Card1 {
+        gap: 120px;
+        font-size: 24px;
+    }
+    
+    body .Works .Alternate-Card .Images1 {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        padding-bottom: 0px;
+    }
+
+    body .Works .Alternate-Card .Images1 > h4 {
+        padding: 0px 12px;
+    }
+
+    body .Works .Alternate-Card .Images1 .Titles {
+        display: unset;
+        padding-bottom: 32px;
+    }
+
+    body .Works .Alternate-Card .Images1 .Alt-Image1 > img {
+        height: 100px;
+        margin: 0px;
+        width: 100px;
+    }
+
+    body .Works .Alternate-Card .Images1 .Alt-Image2 > img {
+        height: 100px;
+        margin: 0px;
+        width: 100px;
+    }
+
+    body .Works .Alternate-Card .Images1 .Alt-Image3 > img {
+        height: 100px;
+        margin: 0px;
+        width: 100px;
+    }
+    
+    body .Works .Alternate-Card .Titles-Img {
+        display: none;
+    }
+    
+    body .Works .Alternate-Card button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+    
+    body .Works .Alternate-Card button:hover {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+    
+    body .Now {
+        margin: 0px 30px;
+    }
+
+    body .Now .Content {
+        font-size: 22px;
+    }
+    
+    body .Now button {
+        font-size: 14px;
+        padding: 7px 14px;
+    }
+    
+    body .Now button:hover {
+        font-size: 14px;
+        padding: 7px 14px;
+    }
+
+    body .Footer {
+        padding: 12px 12px;
+    }
+
+    body .Footer .Contenido > p {
+        font-size: small;
+        padding: 0px 0px;
+    }
+
+    body .Footer .Contenido .Button > h6 {
+        cursor: pointer;
+        font-size: 10px;
+        padding: 8px 0px;
+    }
+    
+    body .Footer .Contenido .Button > p {
+        cursor: pointer;
+        font-size: 10px;
+        padding: 12px 0px;
+    }
+    
+    body .Footer .Contenido .Button > p:hover {
+        cursor: pointer;
+        font-size: 10px;
+        padding: 12px 0px;
+    }
+}
+
+/* body .BarraItems .Page1:hover {
+    align-items: start;
+    background: blueviolet;
+    border: solid blueviolet 2px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body .BarraItems .Page1:hover > span {
+    border: 1.5px solid transparent;
+    width: 85%;
+} */
